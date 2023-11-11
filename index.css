@@ -633,6 +633,7 @@ main {
 .page-content audio {
     margin-bottom: 10px;
 }
+
 /* ========[Subpage 4]======== */
 #body_subpage_4 {
     background-image: url("./media/subpage_4/wallpaper.jpg");
@@ -653,4 +654,17 @@ main {
     height: 530px;
     object-fit: cover;
     margin-left: 15px;
+}
+
+/* ========[Additional]======== */
+.git-notice-flyout {
+    position: absolute;
+    right: 0;
+    top: 20px;
+    background-color: #000c18;
+    border: 2px solid #082050;
+    border-right: 0px;
+    padding: 5px;
+    padding-left: 3px;
+    color:rgb(211, 210, 210);
 }
