@@ -318,7 +318,8 @@ main {
 
 /* ========[Main Page]======== */
 #body_mainpage {
-    background-image: url("./media/main_wallpaper.jpg");
+    background-image: url("./media/main_wallpaper_2.gif"); /*  https://www.pinterest.se/pin/840695455431121767/  */
+    background-position: 0px -150px;
 }
 /* ========[Subpage 1]======== */
 #body_subpage_1 {
@@ -667,4 +668,18 @@ main {
     padding: 5px;
     padding-left: 3px;
     color:rgb(211, 210, 210);
+}
+#mainpage-wallpap-source {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    color:rgb(77, 77, 77)
+}
+#mainpage-welcome {
+    position: absolute;
+    left: 0px;
+    width: 100vw;
+    text-align: center;
+    margin-top: 13%;
+    font-size: 55px;
 }
